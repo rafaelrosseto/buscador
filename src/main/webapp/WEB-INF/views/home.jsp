@@ -22,7 +22,7 @@
 				<form action="resultado" method="post" class="form-inline text-center" role="form">
 					<div class="form-group">
 						<input type="text" name="nome" class="form-control input-lg" placeholder="Ex: iPhone 5s" />
-						<input type="submit" class="btn btn-lg btn-success glyphicon glyphicon-search"/>
+						<button type="submit" class="btn btn-lg btn-success glyphicon glyphicon-search" onclick="document.myForm.submit();"></button>
 					</div>
 				</form>
 			</div>
