@@ -1,6 +1,7 @@
 <%@taglib uri="http://www.springframework.org/tags" prefix="spring"%>
 <%@taglib uri="http://www.springframework.org/tags/form" prefix="form"%>
 <%@taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
+<%@taglib uri="http://java.sun.com/jsp/jstl/fmt" prefix="fmt" %>
 <html lang="pt_BR">
 <head>
 <meta charset="utf-8">
@@ -19,6 +20,14 @@
 		<div class="container">
 			<h1>Resultado:</h1>
 		</div>
+		<table>
+			<tr>
+				<th>Produto</th>
+			</tr>
+			<tr>
+				<td>${produto.nome}</td>
+			</tr>
+		</table>
 		<script src="<c:url value="/resources/js/jquery.min.js" />"></script>
 		<script src="<c:url value="/resources/js/bootstrap.min.js" />"></script>
 	</div>
